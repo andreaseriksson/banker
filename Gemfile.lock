@@ -76,6 +76,8 @@ GEM
       activesupport (>= 4.2.0)
     i18n (1.8.5)
       concurrent-ruby (~> 1.0)
+    ibandit (1.1.0.1)
+      i18n
     jwt (2.2.1)
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -180,6 +182,7 @@ DEPENDENCIES
   brakeman
   byebug
   factory_bot_rails
+  ibandit
   jwt
   listen (~> 3.2)
   pg (>= 0.18, < 2.0)

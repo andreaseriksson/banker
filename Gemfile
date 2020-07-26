@@ -8,6 +8,7 @@ gem 'pg', '>= 0.18', '< 2.0'
 
 gem 'bcrypt', '~> 3.1.7'
 gem 'bootsnap', '>= 1.4.2', require: false
+gem 'ibandit'
 gem 'jwt'
 gem 'puma', '~> 4.1'
 gem 'rack-cors'
