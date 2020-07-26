@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Get a valid JWT by posting to `/tokens` and payload `{ "credentials": { "username": "some_user", "password": "secret_pass" } }`
+2. Use the token and send a payement request to `/payment_requests`
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
